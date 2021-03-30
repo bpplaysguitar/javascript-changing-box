@@ -91,12 +91,12 @@ function resetFunction() {
 }
 
 // Red Button Function 
-document.getElementById("button10").onclick = function() {redButtonFunction()};
+document.getElementById("button11").onclick = function() {redButtonFunction()};
 
 function redButtonFunction() {
-  document.getElementById("button10").style.transitionTimingFunction = "ease-out";
-  document.getElementById("button10").style.transition = "1s";
-  document.getElementById("button10").style.transform = "translateY(1000px)";
+  document.getElementById("button11").style.transitionTimingFunction = "ease-out";
+  document.getElementById("button11").style.transition = "1s";
+  document.getElementById("button11").style.transform = "translateY(1000px)";
   document.getElementById("button1").style.transitionTimingFunction = "ease-out";
   document.getElementById("button1").style.transition = "1s";
   document.getElementById("button1").style.transform = "translateY(1000px)";
@@ -125,14 +125,14 @@ function redButtonFunction() {
   document.getElementById("button9").style.transition = "1s";
   document.getElementById("button9").style.transform = "translateY(1000px)";
   document.getElementById("button11").style.transitionTimingFunction = "ease-out";
-  document.getElementById("button11").style.transition = "1s";
-  document.getElementById("button11").style.transform = "translateY(1000px)";
+  document.getElementById("button10").style.transition = "1s";
+  document.getElementById("button10").style.transform = "translateY(1000px)";
 }
 
-// Nothing Button Function 
-document.getElementById("button11").onclick = function() {nothingButtonFunction()};
+// Useless Button Function 
+document.getElementById("button10").onclick = function() {uselessButtonFunction()};
 
-function nothingButtonFunction() {
-  document.getElementById("button11").style.transitionTimingFunction = "ease-out";
-  document.getElementById("button11").style.transition = "1s";
-  document.getElementById("button11").style.transform = "translateY(1000px)";}
+function uselessButtonFunction() {
+  document.getElementById("button10").style.transitionTimingFunction = "ease-out";
+  document.getElementById("button10").style.transition = "1s";
+  document.getElementById("button10").style.transform = "translateY(1000px)";}
